@@ -1,0 +1,222 @@
+@font-face {
+    font-family:Poppins-Bold ;
+    src: url(Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(Poppins-Medium.ttf);
+}
+
+#navbar{
+    background-color: #0065c3;
+}
+body{ 
+    font-weight: 100;
+    font-family: Poppins-Medium;
+}
+span{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: Poppins-Medium;
+}
+
+.button{
+    border-radius: 19px;
+}
+button>span:hover{
+    color: #0065c3;
+}
+.dropdown-toggle{
+    color: white;
+}
+.homepage{
+    height: 100%;
+    width: 100%; 
+}
+.homepage>img{
+    height: 100%;
+    width: 100%; 
+    padding-top: 99px;
+    position: absolute;
+    
+}
+.buttontext{
+    position: relative ;
+    padding-top: 509px;
+    padding-left: 385px;
+}
+.buttontext>span>p{
+    font-size: 11px;
+}
+.secondimg{
+    height: 100%;
+        width: 100%; 
+    }
+.secondimg>img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover !important;
+    object-fit: cover !important;  
+        position: absolute;
+    }
+.thirdimg{
+    height: 100%;
+        width: 100%; 
+    }
+.thirdimg>img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover !important;
+    object-fit: cover !important; 
+        position: absolute;
+        
+    }
+    .buttontext2{
+        position: relative;
+        padding-top: 529px;
+        padding-left: 549px;
+    }
+    .fourthimg{
+        height:499px ;
+        width: 100%; 
+    }
+.fourthimg>img{
+    width: 100%;
+    height:499px ;
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+        position: absolute;
+} 
+.fifthimg{
+        height: 100%;
+        width: 100%; 
+    }
+.fifthimg>img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover !important;
+    object-fit: cover !important; 
+        position: absolute;
+        
+}
+.firstvideo{
+    height:100% ;
+    width: 100%; 
+}
+
+.firstvideo>video{
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+}  
+
+.sixthimg{
+    height: 100%;
+    width: 100%; 
+}
+.sixthimg>img{
+width: 100%;
+height: 100%;
+    position: absolute;
+    
+}
+.seventhimg{
+    background-color: #0065c3;
+    display: flex; 
+    height:509px ;
+    width: 100%;
+
+}
+.text{
+  flex-grow: 1;  
+padding-left: 175px;
+  text-align: start;
+}
+.canimg{
+
+    flex-grow: 1; 
+align-items: center;
+justify-content: center;
+  }
+.canimg>img{
+padding: 11px;
+height: 339px;
+width: 179x;
+  }
+
+.seventhimg>.text>span>h1{
+    font-weight: 700;
+    font-size: 41px;
+}
+
+.eigthimg>.text2>b>span>h1{
+    color:#0065c3 ;
+    font-weight: bold;
+    font-size: 37px;
+    text-align: center;
+    padding-top: 13px;
+}
+.animationimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Example CSS for icon positioning */
+.iconimg {
+    position: relative; /* To make the icon positioning relative to the container */
+}
+
+.icon {
+    position: absolute; /* Position the icon absolutely within the container */
+    padding-top: 201px;
+    padding-left: 11px;
+    font-size: 33px; /* Set the font size of the icon */
+    color: white; /* Change the icon color if needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.icon:hover{
+    color: #0065c3;
+}
+.lastsection{
+    background-color: #0065c3;
+    width: 100%;
+    height: 227px;
+    display: flex;
+    padding-top: 55px;
+}
+.lastsection>img{
+    margin-top: 1px;
+    margin-left: 29px;
+}
+
+.m1{
+    margin-left: 211px;
+    margin-top: 0px;
+}
+.m2{
+    margin-left: 99px;
+    margin-right: 99px;
+    margin-top: 0px;
+}
+.m3{
+    margin-left: 1px;
+    margin-top: 0px;
+}
+.LASTBUTTON{
+    margin-left: 129px;
+}
+.LASTBUTTON>button{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.icon2{
+    margin-top: 15px;
+    position: relative;
+    
+}
+.LASTBUTTON>span>i{
+    margin: 7px;
+}

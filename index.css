@@ -136,15 +136,17 @@ padding-left: 175px;
   text-align: start;
 }
 .canimg{
-
+display: flex;
     flex-grow: 1; 
 align-items: center;
 justify-content: center;
+width: 595px;
+margin-right:99px;
   }
 .canimg>img{
 padding: 11px;
 height: 339px;
-width: 179x;
+width: 195px;
   }
 
 .seventhimg>.text>span>h1{
